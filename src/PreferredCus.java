@@ -1,8 +1,8 @@
 public class PreferredCus extends Customer {
 
-    private int purchases;
+    private double purchases;
 
-    PreferredCus(int customer_num, String name, String address, int purchases) {
+    PreferredCus(int customer_num, String name, String address, double purchases) {
         super(customer_num, name, address);
         this.purchases = purchases;
     }

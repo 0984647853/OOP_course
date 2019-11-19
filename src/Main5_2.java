@@ -18,6 +18,7 @@ public class Main5_2 {
             System.out.println(customer.toString());
             System.out.println("************");
         }
+        System.out.println("Preferred: ");
         for (Customer customer : customerArrayList
         ) {
             if(customer instanceof PreferredCus)
