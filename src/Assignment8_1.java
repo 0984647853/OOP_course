@@ -9,8 +9,7 @@ public class Assignment8_1 {
         System.out.print("Give the path of text file: ");
         String path = sc.next();
         String[] words = null;
-        try {
-            BufferedReader input = new BufferedReader(new FileReader(path));
+        try (BufferedReader input = new BufferedReader(new FileReader(path))){
             String line;
             while ((line = input.readLine()) != null) {
                 words = line.split(" ");

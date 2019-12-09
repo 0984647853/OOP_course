@@ -23,6 +23,7 @@ public class homework4 {
             System.out.println(music);
         }
 
+
         System.out.println("____________________________________________________________________________________\nSort by rating ");
         Collections.sort(musicTracks, new Comparator<MusicTrack>() {
             @Override
